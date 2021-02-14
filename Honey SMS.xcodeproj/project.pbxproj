@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		785CFC4625D91F4700CF9765 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785CFC4525D91F4700CF9765 /* TokenManager.swift */; };
+		785CFC4B25D9239000CF9765 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785CFC4A25D9239000CF9765 /* UserManager.swift */; };
+		786ADE6B25CB6C5000EB5A46 /* LeadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786ADE6A25CB6C5000EB5A46 /* LeadsViewController.swift */; };
+		786ADE7325CB89B300EB5A46 /* LeadsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786ADE7225CB89B300EB5A46 /* LeadsModel.swift */; };
+		786ADE7825CB8AAD00EB5A46 /* LeadsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786ADE7725CB8AAD00EB5A46 /* LeadsManager.swift */; };
+		786ADE7D25CB958400EB5A46 /* LeadsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786ADE7C25CB958400EB5A46 /* LeadsData.swift */; };
+		786ADE8525CB9B4100EB5A46 /* LeadsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786ADE8425CB9B4100EB5A46 /* LeadsTableViewCell.swift */; };
+		786ADE8D25CC88E200EB5A46 /* FormatPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786ADE8C25CC88E200EB5A46 /* FormatPhoneNumber.swift */; };
+		786ADE9225CD024500EB5A46 /* SaveContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786ADE9125CD024500EB5A46 /* SaveContact.swift */; };
+		786ADE9725CDDA9D00EB5A46 /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786ADE9625CDDA9D00EB5A46 /* LoadingButton.swift */; };
+		789A1CF525C6FC17006EA21D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789A1CF425C6FC17006EA21D /* AppDelegate.swift */; };
+		789A1CF725C6FC17006EA21D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789A1CF625C6FC17006EA21D /* SceneDelegate.swift */; };
+		789A1CFC25C6FC17006EA21D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789A1CFA25C6FC17006EA21D /* Main.storyboard */; };
+		789A1CFE25C6FC19006EA21D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789A1CFD25C6FC19006EA21D /* Assets.xcassets */; };
+		789A1D0125C6FC19006EA21D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789A1CFF25C6FC19006EA21D /* LaunchScreen.storyboard */; };
+		789A1D0C25C6FC19006EA21D /* Honey_SMSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789A1D0B25C6FC19006EA21D /* Honey_SMSTests.swift */; };
+		789A1D1725C6FC19006EA21D /* Honey_SMSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789A1D1625C6FC19006EA21D /* Honey_SMSUITests.swift */; };
+		789A1D3625C72316006EA21D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789A1D3525C72316006EA21D /* LoginViewController.swift */; };
+		789A1D4625C8A0F8006EA21D /* CampaignModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789A1D4525C8A0F8006EA21D /* CampaignModel.swift */; };
+		789A1D5225C8A562006EA21D /* CampaignData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789A1D5125C8A562006EA21D /* CampaignData.swift */; };
+		789A1D5725C8A5C2006EA21D /* CampaignManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789A1D5625C8A5C2006EA21D /* CampaignManager.swift */; };
+		789A1D5D25C8B253006EA21D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789A1D5C25C8B253006EA21D /* Constants.swift */; };
+		789A1D6825C8DCC3006EA21D /* CampaignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789A1D6725C8DCC3006EA21D /* CampaignViewController.swift */; };
+		789A1D7025C8DFDD006EA21D /* CampaignViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789A1D6F25C8DFDD006EA21D /* CampaignViewCell.swift */; };
+		789A1D7E25C9CD8A006EA21D /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789A1D7D25C9CD89006EA21D /* LoginManager.swift */; };
+		789A1D8525C9CF1D006EA21D /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789A1D8425C9CF1D006EA21D /* LoginModel.swift */; };
+		789A1D8D25CA0722006EA21D /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789A1D8C25CA0722006EA21D /* LoginData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		789A1D0825C6FC19006EA21D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 789A1CE925C6FC17006EA21D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 789A1CF025C6FC17006EA21D;
+			remoteInfo = "Honey SMS";
+		};
+		789A1D1325C6FC19006EA21D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 789A1CE925C6FC17006EA21D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 789A1CF025C6FC17006EA21D;
+			remoteInfo = "Honey SMS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		785CFC4525D91F4700CF9765 /* TokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
+		785CFC4A25D9239000CF9765 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		786ADE6A25CB6C5000EB5A46 /* LeadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadsViewController.swift; sourceTree = "<group>"; };
+		786ADE7225CB89B300EB5A46 /* LeadsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadsModel.swift; sourceTree = "<group>"; };
+		786ADE7725CB8AAD00EB5A46 /* LeadsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadsManager.swift; sourceTree = "<group>"; };
+		786ADE7C25CB958400EB5A46 /* LeadsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadsData.swift; sourceTree = "<group>"; };
+		786ADE8425CB9B4100EB5A46 /* LeadsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadsTableViewCell.swift; sourceTree = "<group>"; };
+		786ADE8C25CC88E200EB5A46 /* FormatPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatPhoneNumber.swift; sourceTree = "<group>"; };
+		786ADE9125CD024500EB5A46 /* SaveContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveContact.swift; sourceTree = "<group>"; };
+		786ADE9625CDDA9D00EB5A46 /* LoadingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
+		789A1CF125C6FC17006EA21D /* Honey SMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Honey SMS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		789A1CF425C6FC17006EA21D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		789A1CF625C6FC17006EA21D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		789A1CFB25C6FC17006EA21D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		789A1CFD25C6FC19006EA21D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		789A1D0025C6FC19006EA21D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		789A1D0225C6FC19006EA21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		789A1D0725C6FC19006EA21D /* Honey SMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Honey SMSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		789A1D0B25C6FC19006EA21D /* Honey_SMSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Honey_SMSTests.swift; sourceTree = "<group>"; };
+		789A1D0D25C6FC19006EA21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		789A1D1225C6FC19006EA21D /* Honey SMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Honey SMSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		789A1D1625C6FC19006EA21D /* Honey_SMSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Honey_SMSUITests.swift; sourceTree = "<group>"; };
+		789A1D1825C6FC19006EA21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		789A1D3525C72316006EA21D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		789A1D4525C8A0F8006EA21D /* CampaignModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignModel.swift; sourceTree = "<group>"; };
+		789A1D5125C8A562006EA21D /* CampaignData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignData.swift; sourceTree = "<group>"; };
+		789A1D5625C8A5C2006EA21D /* CampaignManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignManager.swift; sourceTree = "<group>"; };
+		789A1D5C25C8B253006EA21D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		789A1D6725C8DCC3006EA21D /* CampaignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignViewController.swift; sourceTree = "<group>"; };
+		789A1D6F25C8DFDD006EA21D /* CampaignViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignViewCell.swift; sourceTree = "<group>"; };
+		789A1D7D25C9CD89006EA21D /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		789A1D8425C9CF1D006EA21D /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		789A1D8C25CA0722006EA21D /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		789A1CEE25C6FC17006EA21D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789A1D0425C6FC19006EA21D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789A1D0F25C6FC19006EA21D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		786ADE6525CB6BF600EB5A46 /* Leads */ = {
+			isa = PBXGroup;
+			children = (
+				786ADE6925CB6C2400EB5A46 /* View */,
+				786ADE6825CB6C1100EB5A46 /* Controller */,
+				786ADE6625CB6C0000EB5A46 /* Model */,
+			);
+			path = Leads;
+			sourceTree = "<group>";
+		};
+		786ADE6625CB6C0000EB5A46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				786ADE7225CB89B300EB5A46 /* LeadsModel.swift */,
+				786ADE7725CB8AAD00EB5A46 /* LeadsManager.swift */,
+				786ADE7C25CB958400EB5A46 /* LeadsData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		786ADE6825CB6C1100EB5A46 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				786ADE6A25CB6C5000EB5A46 /* LeadsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		786ADE6925CB6C2400EB5A46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				786ADE8425CB9B4100EB5A46 /* LeadsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		789A1CE825C6FC17006EA21D = {
+			isa = PBXGroup;
+			children = (
+				789A1CF325C6FC17006EA21D /* Honey SMS */,
+				789A1D0A25C6FC19006EA21D /* Honey SMSTests */,
+				789A1D1525C6FC19006EA21D /* Honey SMSUITests */,
+				789A1CF225C6FC17006EA21D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		789A1CF225C6FC17006EA21D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				789A1CF125C6FC17006EA21D /* Honey SMS.app */,
+				789A1D0725C6FC19006EA21D /* Honey SMSTests.xctest */,
+				789A1D1225C6FC19006EA21D /* Honey SMSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		789A1CF325C6FC17006EA21D /* Honey SMS */ = {
+			isa = PBXGroup;
+			children = (
+				789A1CF425C6FC17006EA21D /* AppDelegate.swift */,
+				789A1CF625C6FC17006EA21D /* SceneDelegate.swift */,
+				789A1CFA25C6FC17006EA21D /* Main.storyboard */,
+				789A1D5B25C8AC02006EA21D /* Helpers */,
+				786ADE6525CB6BF600EB5A46 /* Leads */,
+				789A1D4125C8A042006EA21D /* Campaign */,
+				789A1D3425C722F3006EA21D /* Login */,
+				789A1CFD25C6FC19006EA21D /* Assets.xcassets */,
+				789A1CFF25C6FC19006EA21D /* LaunchScreen.storyboard */,
+				789A1D0225C6FC19006EA21D /* Info.plist */,
+			);
+			path = "Honey SMS";
+			sourceTree = "<group>";
+		};
+		789A1D0A25C6FC19006EA21D /* Honey SMSTests */ = {
+			isa = PBXGroup;
+			children = (
+				789A1D0B25C6FC19006EA21D /* Honey_SMSTests.swift */,
+				789A1D0D25C6FC19006EA21D /* Info.plist */,
+			);
+			path = "Honey SMSTests";
+			sourceTree = "<group>";
+		};
+		789A1D1525C6FC19006EA21D /* Honey SMSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				789A1D1625C6FC19006EA21D /* Honey_SMSUITests.swift */,
+				789A1D1825C6FC19006EA21D /* Info.plist */,
+			);
+			path = "Honey SMSUITests";
+			sourceTree = "<group>";
+		};
+		789A1D3425C722F3006EA21D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				789A1D8325C9CDA6006EA21D /* Controller */,
+				789A1D8225C9CD95006EA21D /* Model */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		789A1D4125C8A042006EA21D /* Campaign */ = {
+			isa = PBXGroup;
+			children = (
+				789A1D4225C8A04E006EA21D /* Model */,
+				789A1D4425C8A05F006EA21D /* Controller */,
+				789A1D4325C8A057006EA21D /* View */,
+			);
+			path = Campaign;
+			sourceTree = "<group>";
+		};
+		789A1D4225C8A04E006EA21D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				789A1D4525C8A0F8006EA21D /* CampaignModel.swift */,
+				789A1D5125C8A562006EA21D /* CampaignData.swift */,
+				789A1D5625C8A5C2006EA21D /* CampaignManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		789A1D4325C8A057006EA21D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				789A1D6F25C8DFDD006EA21D /* CampaignViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		789A1D4425C8A05F006EA21D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				789A1D6725C8DCC3006EA21D /* CampaignViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		789A1D5B25C8AC02006EA21D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				789A1D5C25C8B253006EA21D /* Constants.swift */,
+				786ADE8C25CC88E200EB5A46 /* FormatPhoneNumber.swift */,
+				786ADE9125CD024500EB5A46 /* SaveContact.swift */,
+				786ADE9625CDDA9D00EB5A46 /* LoadingButton.swift */,
+				785CFC4525D91F4700CF9765 /* TokenManager.swift */,
+				785CFC4A25D9239000CF9765 /* UserManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		789A1D8225C9CD95006EA21D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				789A1D7D25C9CD89006EA21D /* LoginManager.swift */,
+				789A1D8425C9CF1D006EA21D /* LoginModel.swift */,
+				789A1D8C25CA0722006EA21D /* LoginData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		789A1D8325C9CDA6006EA21D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				789A1D3525C72316006EA21D /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		789A1CF025C6FC17006EA21D /* Honey SMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789A1D1B25C6FC19006EA21D /* Build configuration list for PBXNativeTarget "Honey SMS" */;
+			buildPhases = (
+				789A1CED25C6FC17006EA21D /* Sources */,
+				789A1CEE25C6FC17006EA21D /* Frameworks */,
+				789A1CEF25C6FC17006EA21D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Honey SMS";
+			productName = "Honey SMS";
+			productReference = 789A1CF125C6FC17006EA21D /* Honey SMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		789A1D0625C6FC19006EA21D /* Honey SMSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789A1D1E25C6FC19006EA21D /* Build configuration list for PBXNativeTarget "Honey SMSTests" */;
+			buildPhases = (
+				789A1D0325C6FC19006EA21D /* Sources */,
+				789A1D0425C6FC19006EA21D /* Frameworks */,
+				789A1D0525C6FC19006EA21D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				789A1D0925C6FC19006EA21D /* PBXTargetDependency */,
+			);
+			name = "Honey SMSTests";
+			productName = "Honey SMSTests";
+			productReference = 789A1D0725C6FC19006EA21D /* Honey SMSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		789A1D1125C6FC19006EA21D /* Honey SMSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789A1D2125C6FC19006EA21D /* Build configuration list for PBXNativeTarget "Honey SMSUITests" */;
+			buildPhases = (
+				789A1D0E25C6FC19006EA21D /* Sources */,
+				789A1D0F25C6FC19006EA21D /* Frameworks */,
+				789A1D1025C6FC19006EA21D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				789A1D1425C6FC19006EA21D /* PBXTargetDependency */,
+			);
+			name = "Honey SMSUITests";
+			productName = "Honey SMSUITests";
+			productReference = 789A1D1225C6FC19006EA21D /* Honey SMSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		789A1CE925C6FC17006EA21D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					789A1CF025C6FC17006EA21D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					789A1D0625C6FC19006EA21D = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 789A1CF025C6FC17006EA21D;
+					};
+					789A1D1125C6FC19006EA21D = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 789A1CF025C6FC17006EA21D;
+					};
+				};
+			};
+			buildConfigurationList = 789A1CEC25C6FC17006EA21D /* Build configuration list for PBXProject "Honey SMS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 789A1CE825C6FC17006EA21D;
+			productRefGroup = 789A1CF225C6FC17006EA21D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				789A1CF025C6FC17006EA21D /* Honey SMS */,
+				789A1D0625C6FC19006EA21D /* Honey SMSTests */,
+				789A1D1125C6FC19006EA21D /* Honey SMSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		789A1CEF25C6FC17006EA21D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789A1D0125C6FC19006EA21D /* LaunchScreen.storyboard in Resources */,
+				789A1CFE25C6FC19006EA21D /* Assets.xcassets in Resources */,
+				789A1CFC25C6FC17006EA21D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789A1D0525C6FC19006EA21D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789A1D1025C6FC19006EA21D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		789A1CED25C6FC17006EA21D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786ADE6B25CB6C5000EB5A46 /* LeadsViewController.swift in Sources */,
+				786ADE8525CB9B4100EB5A46 /* LeadsTableViewCell.swift in Sources */,
+				789A1D3625C72316006EA21D /* LoginViewController.swift in Sources */,
+				789A1D5225C8A562006EA21D /* CampaignData.swift in Sources */,
+				789A1D7025C8DFDD006EA21D /* CampaignViewCell.swift in Sources */,
+				789A1D8525C9CF1D006EA21D /* LoginModel.swift in Sources */,
+				789A1CF525C6FC17006EA21D /* AppDelegate.swift in Sources */,
+				789A1D8D25CA0722006EA21D /* LoginData.swift in Sources */,
+				789A1D5725C8A5C2006EA21D /* CampaignManager.swift in Sources */,
+				789A1D7E25C9CD8A006EA21D /* LoginManager.swift in Sources */,
+				789A1D5D25C8B253006EA21D /* Constants.swift in Sources */,
+				786ADE9225CD024500EB5A46 /* SaveContact.swift in Sources */,
+				789A1CF725C6FC17006EA21D /* SceneDelegate.swift in Sources */,
+				785CFC4625D91F4700CF9765 /* TokenManager.swift in Sources */,
+				789A1D6825C8DCC3006EA21D /* CampaignViewController.swift in Sources */,
+				789A1D4625C8A0F8006EA21D /* CampaignModel.swift in Sources */,
+				786ADE7D25CB958400EB5A46 /* LeadsData.swift in Sources */,
+				786ADE9725CDDA9D00EB5A46 /* LoadingButton.swift in Sources */,
+				786ADE7325CB89B300EB5A46 /* LeadsModel.swift in Sources */,
+				786ADE8D25CC88E200EB5A46 /* FormatPhoneNumber.swift in Sources */,
+				785CFC4B25D9239000CF9765 /* UserManager.swift in Sources */,
+				786ADE7825CB8AAD00EB5A46 /* LeadsManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789A1D0325C6FC19006EA21D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789A1D0C25C6FC19006EA21D /* Honey_SMSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789A1D0E25C6FC19006EA21D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789A1D1725C6FC19006EA21D /* Honey_SMSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		789A1D0925C6FC19006EA21D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 789A1CF025C6FC17006EA21D /* Honey SMS */;
+			targetProxy = 789A1D0825C6FC19006EA21D /* PBXContainerItemProxy */;
+		};
+		789A1D1425C6FC19006EA21D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 789A1CF025C6FC17006EA21D /* Honey SMS */;
+			targetProxy = 789A1D1325C6FC19006EA21D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		789A1CFA25C6FC17006EA21D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				789A1CFB25C6FC17006EA21D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		789A1CFF25C6FC19006EA21D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				789A1D0025C6FC19006EA21D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		789A1D1925C6FC19006EA21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		789A1D1A25C6FC19006EA21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		789A1D1C25C6FC19006EA21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PUPU794X52;
+				INFOPLIST_FILE = "Honey SMS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.honey.sms.Honey-SMS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		789A1D1D25C6FC19006EA21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PUPU794X52;
+				INFOPLIST_FILE = "Honey SMS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.honey.sms.Honey-SMS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		789A1D1F25C6FC19006EA21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PUPU794X52;
+				INFOPLIST_FILE = "Honey SMSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.honey.sms.Honey-SMSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Honey SMS.app/Honey SMS";
+			};
+			name = Debug;
+		};
+		789A1D2025C6FC19006EA21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PUPU794X52;
+				INFOPLIST_FILE = "Honey SMSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.honey.sms.Honey-SMSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Honey SMS.app/Honey SMS";
+			};
+			name = Release;
+		};
+		789A1D2225C6FC19006EA21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PUPU794X52;
+				INFOPLIST_FILE = "Honey SMSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.honey.sms.Honey-SMSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Honey SMS";
+			};
+			name = Debug;
+		};
+		789A1D2325C6FC19006EA21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PUPU794X52;
+				INFOPLIST_FILE = "Honey SMSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.honey.sms.Honey-SMSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Honey SMS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		789A1CEC25C6FC17006EA21D /* Build configuration list for PBXProject "Honey SMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789A1D1925C6FC19006EA21D /* Debug */,
+				789A1D1A25C6FC19006EA21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789A1D1B25C6FC19006EA21D /* Build configuration list for PBXNativeTarget "Honey SMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789A1D1C25C6FC19006EA21D /* Debug */,
+				789A1D1D25C6FC19006EA21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789A1D1E25C6FC19006EA21D /* Build configuration list for PBXNativeTarget "Honey SMSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789A1D1F25C6FC19006EA21D /* Debug */,
+				789A1D2025C6FC19006EA21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789A1D2125C6FC19006EA21D /* Build configuration list for PBXNativeTarget "Honey SMSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789A1D2225C6FC19006EA21D /* Debug */,
+				789A1D2325C6FC19006EA21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 789A1CE925C6FC17006EA21D /* Project object */;
+}
