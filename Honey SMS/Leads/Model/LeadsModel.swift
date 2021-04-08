@@ -7,14 +7,14 @@
 
 import Foundation
 
-struct LeadsModel : Codable {
+struct LeadsModel : Decodable {
     var success : Bool
     var data : [Leads]
     
 
 }
 
-struct Leads : Codable {
+struct Leads : Decodable {
     var id : String
     var nome : String
     var telefone: String

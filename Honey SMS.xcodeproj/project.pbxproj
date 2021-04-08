@@ -34,6 +34,9 @@
 		789A1D7E25C9CD8A006EA21D /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789A1D7D25C9CD89006EA21D /* LoginManager.swift */; };
 		789A1D8525C9CF1D006EA21D /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789A1D8425C9CF1D006EA21D /* LoginModel.swift */; };
 		789A1D8D25CA0722006EA21D /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789A1D8C25CA0722006EA21D /* LoginData.swift */; };
+		78DA0BFD2602BC1A0056AD87 /* InteresseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA0BFC2602BC1A0056AD87 /* InteresseModel.swift */; };
+		78DA0C062602BFA50056AD87 /* InteresseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA0C052602BFA50056AD87 /* InteresseManager.swift */; };
+		78DA0C0B260407070056AD87 /* ButtonInteresse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA0C0A260407070056AD87 /* ButtonInteresse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,9 @@
 		789A1D7D25C9CD89006EA21D /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
 		789A1D8425C9CF1D006EA21D /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		789A1D8C25CA0722006EA21D /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		78DA0BFC2602BC1A0056AD87 /* InteresseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteresseModel.swift; sourceTree = "<group>"; };
+		78DA0C052602BFA50056AD87 /* InteresseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteresseManager.swift; sourceTree = "<group>"; };
+		78DA0C0A260407070056AD87 /* ButtonInteresse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonInteresse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +179,7 @@
 		789A1CF325C6FC17006EA21D /* Honey SMS */ = {
 			isa = PBXGroup;
 			children = (
+				78DA0BFB2602BC010056AD87 /* Interesse */,
 				789A1CF425C6FC17006EA21D /* AppDelegate.swift */,
 				789A1CF625C6FC17006EA21D /* SceneDelegate.swift */,
 				789A1CFA25C6FC17006EA21D /* Main.storyboard */,
@@ -259,6 +266,7 @@
 				786ADE9625CDDA9D00EB5A46 /* LoadingButton.swift */,
 				785CFC4525D91F4700CF9765 /* TokenManager.swift */,
 				785CFC4A25D9239000CF9765 /* UserManager.swift */,
+				78DA0C0A260407070056AD87 /* ButtonInteresse.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -279,6 +287,23 @@
 				789A1D3525C72316006EA21D /* LoginViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		78DA0BFB2602BC010056AD87 /* Interesse */ = {
+			isa = PBXGroup;
+			children = (
+				78DA0C042602BC280056AD87 /* Model */,
+			);
+			path = Interesse;
+			sourceTree = "<group>";
+		};
+		78DA0C042602BC280056AD87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78DA0BFC2602BC1A0056AD87 /* InteresseModel.swift */,
+				78DA0C052602BFA50056AD87 /* InteresseManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -426,12 +451,15 @@
 				789A1CF725C6FC17006EA21D /* SceneDelegate.swift in Sources */,
 				785CFC4625D91F4700CF9765 /* TokenManager.swift in Sources */,
 				789A1D6825C8DCC3006EA21D /* CampaignViewController.swift in Sources */,
+				78DA0BFD2602BC1A0056AD87 /* InteresseModel.swift in Sources */,
+				78DA0C0B260407070056AD87 /* ButtonInteresse.swift in Sources */,
 				789A1D4625C8A0F8006EA21D /* CampaignModel.swift in Sources */,
 				786ADE7D25CB958400EB5A46 /* LeadsData.swift in Sources */,
 				786ADE9725CDDA9D00EB5A46 /* LoadingButton.swift in Sources */,
 				786ADE7325CB89B300EB5A46 /* LeadsModel.swift in Sources */,
 				786ADE8D25CC88E200EB5A46 /* FormatPhoneNumber.swift in Sources */,
 				785CFC4B25D9239000CF9765 /* UserManager.swift in Sources */,
+				78DA0C062602BFA50056AD87 /* InteresseManager.swift in Sources */,
 				786ADE7825CB8AAD00EB5A46 /* LeadsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,7 +646,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.honey.sms.Honey-SMS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -637,7 +665,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.honey.sms.Honey-SMS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

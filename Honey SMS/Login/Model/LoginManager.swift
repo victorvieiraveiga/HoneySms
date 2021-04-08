@@ -35,7 +35,7 @@ struct LoginManager {
 
         loginRequest.httpMethod = "POST"
         loginRequest.addValue("application/json", forHTTPHeaderField: "content-type")
-        loginRequest.addValue("application/json", forHTTPHeaderField: "Accept")
+        //loginRequest.addValue("application/json", forHTTPHeaderField: "Accept")
 
         do {
             let params = ["Email": email, "Password" : password]

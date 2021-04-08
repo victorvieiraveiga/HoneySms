@@ -100,6 +100,7 @@ extension CampaignViewController : UITableViewDataSource {
         controller.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
         //controller.leadIdCampaign = results[indexPath.row].data[0].id
         controller.campaignSelect = results
+        controller.indexCampaignSelect = indexPath.row
         present(controller, animated: true, completion: nil)
     }
 }

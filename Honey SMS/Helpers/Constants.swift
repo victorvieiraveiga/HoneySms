@@ -11,6 +11,7 @@ struct Constants {
     var urlCampaign : String = "https://honeyapimobiledesenv.azurewebsites.net/api/campanhas-vendedor"
     var urlLeads : String = "https://honeyapimobiledesenv.azurewebsites.net/api/leads-campanha/"
     var urlLogin : String = "https://honeyapimobiledesenv.azurewebsites.net/api/login"
+    var urlPostInteresse :  String = "https://honeyapimobiledesenv.azurewebsites.net/api/leads-interesse/"
     
     var cell : String = "cell"
     var campainId : String = "campaignId"

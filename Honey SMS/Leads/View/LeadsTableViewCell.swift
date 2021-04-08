@@ -11,6 +11,11 @@ class LeadsTableViewCell: UITableViewCell {
 
     @IBOutlet weak var labelName: UILabel!
     @IBOutlet weak var labelPhone: UILabel!
+    @IBOutlet weak var buttonMore: UIButton!
+    
+    @IBOutlet weak var postInteresseButton: ButtonInteresse!
+    @IBOutlet weak var postNtInteresseButton: ButtonInteresse!
+    @IBOutlet weak var postNtInteresseButtonCampanha: ButtonInteresse!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -28,6 +33,8 @@ class LeadsTableViewCell: UITableViewCell {
         
         labelName.text = leads[indexPath].nome
         labelPhone.text = leads[indexPath].PhoneFormated
+        buttonMore.tag = indexPath
+        
         
     }
 
