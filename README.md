@@ -70,9 +70,9 @@ Dentre as possibilidades o colaborador pode informa o interesse em alguma campan
 <table>
   <tbody>
     <tr>
-      <td> <img src="images/img4.png" height="300" width="170" /> </td>
-      <td> <img src="images/img4.png" height="300" width="170" /> </td>
-      <td> <img src="images/img3.png" height="300" width="170" /> </td>
+      <td> <img src="images/img5.jpg" height="300" width="170" /> </td>
+      <td> <img src="images/img4.jpg" height="300" width="170" /> </td>
+      <td> <img src="images/img3.jpg" height="300" width="170" /> </td>
       <td> <img src="images/img2.png" height="300" width="170" /> </td>
       <td> <img src="images/img1.png" height="300" width="170" /> </td>
     </tr>
@@ -93,7 +93,7 @@ OBS: Este projeto foi construido como exercicio do curso de iOS da Dra [Angela Y
 <!-- CONTACT -->
 ## Contato
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/victorvieiraveiga/TodoListRealm)
+Project Link: [Linkedin](https://www.linkedin.com/in/victor-vieira-veiga-96867157/)
 
 
 
