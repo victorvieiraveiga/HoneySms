@@ -70,7 +70,7 @@ Dentre as possibilidades o colaborador pode informa o interesse em alguma campan
 <table>
   <tbody>
     <tr>
-      <td> <img src="images/img5.jpg" height="300" width="139" /> </td>
+      <td> <img src="images/screenshot3.jpg" height="400" width="150" /> </td>
       <td> <img src="images/img4.jpg" height="300" width="139" /> </td>
       <td> <img src="images/img3.jpg" height="300" width="139" /> </td>
       <td> <img src="images/img2.png" height="300" width="139" /> </td>
@@ -79,7 +79,7 @@ Dentre as possibilidades o colaborador pode informa o interesse em alguma campan
   </tbody>
 </table>
 
-OBS: Este projeto foi construido como exercicio do curso de iOS da Dra [Angela Yu] (https://www.linkedin.com/in/angela-yu-963a584b/)
+
 
 
 ### Desenvolvido Com
