@@ -71,10 +71,10 @@ Dentre as possibilidades o colaborador pode informa o interesse em alguma campan
   <tbody>
     <tr>
       <td> <img src="images/screenshot3.jpeg" height="350" width="110" /> </td>
-      <td> <img src="images/img4.jpg" height="300" width="139" /> </td>
-      <td> <img src="images/img3.jpg" height="300" width="139" /> </td>
-      <td> <img src="images/img2.png" height="300" width="139" /> </td>
-      <td> <img src="images/img1.png" height="300" width="139" /> </td>
+      <td> <img src="images/screenshot4.jpeg" height="350" width="139" /> </td>
+      <td> <img src="images/screenshot5.jpeg" height="350" width="139" /> </td>
+      <td> <img src="images/screenshot6.jpeg" height="350" width="139" /> </td>
+      <td> <img src="images/screenshot7.jpeg" height="350" width="139" /> </td>
     </tr>
   </tbody>
 </table>
