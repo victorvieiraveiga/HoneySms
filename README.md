@@ -70,9 +70,9 @@ Dentre as possibilidades o colaborador pode informa o interesse em alguma campan
 <table>
   <tbody>
     <tr>
-      <td> <img src="images/screenshot5.jpeg" height="320" width="139" /> </td>
-      <td> <img src="images/screenshot3.jpeg" height="320" width="139" /> </td>
-      <td> <img src="images/screenshot4.jpeg" height="320" width="139" /> </td>
+      <td> <img src="images/screenshot4.jpeg" height="300" width="139" /> </td>
+      <td> <img src="images/screenshot5.jpeg" height="300" width="139" /> </td>
+      <td> <img src="images/screenshot3.jpeg" height="300" width="139" /> </td> 
     </tr>
   </tbody>
 </table>>
@@ -80,8 +80,8 @@ Dentre as possibilidades o colaborador pode informa o interesse em alguma campan
 <table>
   <tbody>
     <tr>
-      <td> <img src="images/screenshot6.jpeg" height="320" width="139" /> </td>
-      <td> <img src="images/screenshot7.jpeg" height="320" width="139" /> </td>
+      <td> <img src="images/screenshot6.jpeg" height="300" width="139" /> </td>
+      <td> <img src="images/screenshot7.jpeg" height="300" width="139" /> </td>
     </tr>
   </tbody>
 </table>>
