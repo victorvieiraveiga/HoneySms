@@ -67,17 +67,17 @@
 Aplicativo Mobile Desenvolvido em Swift. Consumo de API do Cliente, realizando operaçoes de Get, Post e Autenticação com Token.
 Dentre as possibilidades o colaborador pode informa o interesse em alguma campanha. Chamar outro colaborador no WhatsApp, salvar contato de outros colaboradores em seu dispositivo fisico.
 
-<table>
+
   <tbody>
     <tr>
-      <td> <img src="images/screenshot3.jpeg" height="350" width="110" /> </td>
+      <td> <img src="images/screenshot3.jpeg" height="350" width="139" /> </td>
       <td> <img src="images/screenshot4.jpeg" height="350" width="139" /> </td>
       <td> <img src="images/screenshot5.jpeg" height="350" width="139" /> </td>
       <td> <img src="images/screenshot6.jpeg" height="350" width="139" /> </td>
       <td> <img src="images/screenshot7.jpeg" height="350" width="139" /> </td>
     </tr>
   </tbody>
-</table>
+
 
 
 
